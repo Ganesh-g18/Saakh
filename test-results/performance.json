@@ -1,0 +1,43 @@
+{
+  "environment": "Local Vite development server, Chromium headless, software WebGL; not production or mobile hardware benchmark",
+  "metrics": [
+    {
+      "route": "/",
+      "readyMs": 3101,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 304
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 516
+        }
+      ],
+      "resources": 37,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "route": "/app",
+      "readyMs": 1111,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 444
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 512
+        }
+      ],
+      "resources": 39,
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  ]
+}
